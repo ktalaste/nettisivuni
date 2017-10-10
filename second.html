@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Matkailu</title>
+	<meta charset="UTF-8"/>
+	<link rel="stylesheet" type="text/css" href="app.css"/>
+  </head>
+  <body>
+	<div class="header">
+	  <a href="index.html">Ensimmäiselle sivulle</a>
+	</div>
+	<div class="main-content">
+    <h1>Kroatiassa</h1>
+	<div class="left-content">
+	<h2>Vuoren rinteellä</h2>
+	<p>
+	Olemme matkustelleet Kroatiassa Dubrovnikin ja Cavtatin ympäristössä
+	ja tänään kiipesimme vuoren rinteelle. Otimme valokuvan maisemasta
+	Adrianmerelle. Vastarannalla meren takana olisi Italian rannikko.
+	</p>
+	</div>
+	<figure>
+	  <img id="adrianmeri" src="adrianmeri.jpg" alt="Maisema Adrianmerelle"/>
+	  <figcaption>
+	    Maisema Adrianmerelle
+	  </figcaption>
+	</figure>
+	<div class="left-content">
+	<h2>Dubrovnikissa</h2>
+	<p>
+	Kävimme toissapäivänä Dubrovnikin vanhassa kaupungissa. Serbit
+	piirittivät Dubrovnikia Bosnian sodan aikana 1990-luvulla läheisiltä
+	vuorilta.
+	</p>
+	</div>
+	<figure>
+	  <img id="dubrovnik" src="dubrovnik.jpg" alt="Dubrovnikin vanha kaupunki"/>
+	  <figcaption>
+	    Dubrovnikin vanha kaupunki
+	  </figcaption>
+	</figure>
+	</div>
+	<div style="clear: both;"></div>
+	<h1>Edistyminen</h1>
+	<progress id="edistyminen" value="0" max="100"></progress>
+	<button type="button" onclick="edisty();">Edisty</button>
+	<script src="app.js"></script>
+  </body>
+</html>

@@ -1,0 +1,18 @@
+﻿Palaute
+Heading-elementit lisäävät otsikointiin 6 eri tasoa. Otsikoinnissa käytetään tageja <h1> - <h6>.
+<h1> kuvaa tärkeintä otsikkoa ja <h6> vähiten tärkeintä. Otsikko kertoo sivun tekstin sisällöstä. 
+
+Järjestetty lista alkaa <ol> tunnisteella. Siinä listattavan asian edessä järjestelmällinen numero tai kirjain.
+ Järjestämättömässa <ul> listassa listattavien asioiden edessä numeron sijaan voi olla pallo, ympyrä tai neliö. 
+
+Blockquotella määritellään osa joka on lainattu toisesta lähteestä. Nettiselaimet yleensä sisentävät <blockquote> elementit. 
+
+Erikoismerkeillä tarkoitetaan koodeja, joilla korvataan mm. skandit äöå. Näin pystytään mm. kirjoittamaan tekstejä, 
+jotka sisältävät sellaisia merkkejä, joita ei näppäimistöltä löydy.Tällöin käytetään esim. koodeja, jotka alkavat &-merkillä 
+ja päättyvät ;-merkkiin. Vrt. http://www.sivut.org/html/vinkit/skandit_ja_erikoismerkit.php 
+
+Absoluuttisessa tavassa linkin osoite kirjoitetaan kokonaisena URL-osoitteena. Absoluuttista linkkiä käytetään silloin
+ kun se viittaa eri nettisivustoon.
+
+Suhteellista linkkiä käytetään silloin kun viitataan johonkin mikä on samassa nettisivustossa. Suhteellisen linkin 
+'etu on että jos joutuu vaihtamaan sivuston tai sivuston osien paikkaa tai palvelinta, ei linkkien osoitteita tarvitse vaihtaa.

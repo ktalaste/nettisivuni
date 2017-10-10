@@ -1,0 +1,34 @@
+Tehtävä 1
+	
+
+Lisää uusia ominaisuuksia(second.html)
+
+1. HTML
+
+    Luo uusi sivu (esim. second.html)
+    Luo sivulle jonkin verran sisältöä (ainakin jokin otsikko ja hieman tekstiä).
+    Lisää index.html-sivullesi linkki, joka ohjaa tälle uudelle sivulle.
+    Lisää second.html-sivullesi linkki index.html-sivulle.
+    Sijoita linkki samaan kohtaan kummallakin sivulla (esim. vasen yläreuna)
+    Lisää sivuillesi kuva-elementti (img)
+    Lisää toinen kuva-elementti, jossa käytät hyödyksesi figure-elementtiä. (figure ja figcaption)
+    Lisää sivuillesi progress-elementti. (Esim. kuvaamaan kurssin etenemistä tai vaikkapa jonkin asian taitotasoasi).
+
+2. CSS
+
+    Linkitä second.html ulkoiseen tyylitiedostoon.
+    Lisää sivuillesi taustakuva tai taustaväri.
+    Lisää johonkin otsikko-elementtiin (h1, h2..) reunukset.
+    Lisää  p-elementtiin uusi taustaväri ja määritä sille pyöristetyt reunukset.
+    Kokeile margin/padding-komentoja eri elementteihin. Pyri selkeyttämään sivujen rakennetta.
+
+Tehtävä 2
+	
+
+1. Kun sivusi on valmis, tarkasta sen oikeellisuus http://validator.w3.org - työkalulla.
+
+2. Tarkista myös CSS-tiedostosi: https://jigsaw.w3.org/css-validator/validator.html.en ja korjaa tarvittaessa.
+
+Markup Validation Servicen ylläpitämä lista virheilmoitusten selityksistä: list of error messages and their interpretation. 
+
+3. Liitä validointiraportti palautuksen mukaan. Tallenna raportit (esim. näyttökuvana, PDF-tiedostona...)

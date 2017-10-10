@@ -1,0 +1,39 @@
+﻿<!DOCTYPE html>
+<html lang="fi">
+    <head>
+        <meta charset="UTF-8" />
+        <title>Kirsin sivu</title>
+	<link rel="stylesheet" type="text/css" href="mystyle.css">
+        <style>
+            h1{
+                text-decoration: white;
+            }
+            body{
+                backround-color: blueviolet;
+            }
+            #Catpredator{
+                backround-color: aqua;
+            }        
+        </style>
+    </head>
+    <body style="background-color:pink;">
+        <h1 style="text-align:center;">Centered Heading</h1>
+        <h1 style="color:white;"> Kirsi Talastera </h1>
+        <p> ="color:white;"><b> Opiskelen Laurea ammattikorkeakoulussa tietojenkasittelyn tradenomiksi </b> .</p>
+        <hr/>
+        <p>
+            <a href="http://www.hs.fi">HS.FI</a>
+        </p>
+        <p id="Catpredator" >SWEET LITTLE KITTYCAT<br>
+        <hr/>
+        <h2> Harrastuksiani</h2>
+        <ul>
+            <li> tanssi </li>
+            <li> kuntonyrkkeily </li>
+        </ul>
+        <dl>
+            <dt> Coffee </dt>
+            <dd> is made of beans </dd>
+        </dl>
+    </body>
+</html>

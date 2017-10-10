@@ -1,0 +1,19 @@
+﻿	h1{
+		text-decoration: white;
+	}
+	body
+		background-color: blueviolet;
+	}
+	#Catpredator{
+		background-color: deeppink;
+	}
+	.kissa{
+		background-color: magenta;
+	}
+	p{
+		border-style: solid;
+		border-color: #ff0000;
+	}
+	img{
+		border-style: none;
+	}

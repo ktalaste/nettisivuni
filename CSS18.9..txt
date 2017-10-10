@@ -1,0 +1,46 @@
+﻿<!DOCTYPE html>
+<html lang="fi">
+    <head>
+        <title>Kirsin sivu</title>
+        <meta charset="UTF-8" />
+	
+	</head>
+    <body 
+	<style>
+	p{
+	background-color: rgb(100, 100, 0);
+	}
+	</style>
+
+        <h1 style="text-align:center;">Centered Heading</h1>
+        <h1 style="color:white;"> Kirsi Talasterä </h1>
+        <p style="color:white;"><b> Opiskelen Laurea ammattikorkeakoulussa tietojenkasittelyn tradenomiksi </b> .</p>
+        <hr/>
+        <p>
+            <a href="http://www.hs.fi">HS.FI</a>
+        </p>
+        <hr/>
+        <h2> Harrastuksiani</h2>
+        <ul>
+            <li> tanssi </li>
+            <li> kuntonyrkkeily </li>
+        </ul>
+        <dl id="coffee">
+            <dt> Coffee </dt>
+            <dd> is made of beans </dd>
+        </dl>
+	<dl id="tea">
+	  <!-- Tähän tuotetaan tietoa dynaamisesti Javascriptillä -->
+	</dl>
+	<button type="button" onclick="tea();">Paina nappia</button>
+	<script>
+	  function tea() {
+	  var coffee=document.getElementById("coffee");
+	  coffee.remove();
+	  var tea=document.getElementById("tea");
+	  tea.innerHTML="<dt>Tea</dt><dd style=\"color:red;\">... but no sympathy</dd>";
+	  return false;
+	  }
+	</script>
+    </body>
+</html>
