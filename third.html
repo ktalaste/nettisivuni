@@ -5,9 +5,35 @@
         <meta charset="UTF-8" />
         <link rel="stylesheet" type="text/css" href="stylesheet.css">
         <style>
+            div.container{
+                width: 100%;
+                border: 1px black;
+            }
+            header, footer{
+                padding: 1em;
+                color: black;
+                background-color: white;
+                text-align: center;
+            }
+            nav{
+                float: left;
+                width: 200px;
+                margin: 0;
+                padding: 1em;
+            }
+            nav ul{
+                list-style-type: none;
+                padding: 0;
+            }
+            article{
+                margin-left: 170px;
+                border-left: 1px solid gray;
+                padding: 1em;
+                overflow: hidden;
+            }
             body{
                 background-image: url(background.gif)
-                    
+
             }
             .bubbles {
                 color: darkorange
@@ -20,56 +46,35 @@
                 overflow-x: hidden;
             }
             #ilves{
-                width: 120px;
-            }
-            #example{
-                background-image: url(https://pixabay.com/fi/nuori-ilves-ilves-petoel%C3%A4in-2482853/)
+                float: right;
+                margin: 0 0 10px 10px;
+                width: 250px;
+                position: absolute;
             }
         </style>
     </head>
     <body>
-        <h1 style="text-align:center;">BuBbLeS</h1>
-        <p style="color:black;"><b> Kui <span class="bubbles">siistii</span> puhallella saippuakuplia </b> .</p>
-        <p style="color:black;"><b> varsinkin kynttilän valossa </b> .</p>
-        <p>
+        <div class="container">
+            <h1 style="text-align:center;">BuBbLeS</h1>
+            <nav>
+                <ul>
+                    <li><a href="#home">TRAVELLING</a></li>
+                    <li><a href="#news">CATS</a></li>
+                    <li><a href="#contact">DANCING</a></li>
+                </ul>
+            </nav>
+            <p style="color:black;"><b> Olisi <span class="bubbles">hienoa</span>osata koodata</b> .</p>
             <a href="http://www.bbc.com">BBC.COM</a>
         </p>
-        <div id="virallinenTieto"><h3>KATTEJA </h3>
-            <img id="ilves" src="young-lynx.jpg" alt="Pentu ilves" height="100" widht="100">
-            <a href="young-lynx.jpg"><img src="young-lynx.jpg" alt="Young Lynx"></a>
-                
-
-            <p>Rakkaus kissoja kohtaan vaan kasvaa vuosi vuodelta.
-                Ilves eli euraasialainen ilves (Lynx lynx)[1] on keskikokoinen 
-                kissaeläin, ja se on Euroopan ja Siperian metsien tärkeimpiä 
-                petoja. Ilves on Suomessa ainoa luonnonvarainen kissaeläin. Se 
-                liikkuu enimmäkseen hämärässä ja öisin. Ravinnokseen se saalistaa 
-                erityisesti jäniksiä ja kanalintuja mutta myös isompia nisäkkäitä, 
-                kuten valkohäntäpeuroja ja metsäkauriita. Suomen ilveskannan 
-                kooksi arvioidaan noin 2 700–2 900 aikuista yksilöä (2014)[2].
-                Yli 90 prosenttia maailman ilveksistä elää Venäjällä. Keski-
-                Euroopassa (muun muassa Puolassa ja Karpaateilla) on noin 5 000 
-                ilvestä. Ilves on Suomen runsaslukuisin suurpeto.           
-            </p>
-            <p>Ilveksen ruumiin pituus on noin 70–140 senttimetriä ja häntä 15–25 
-                senttimetriä. Ilves painaa tavallisesti 8–25 kilogrammaa. Uros on 
-                naarasta kookkaampi.[3]Ilveksen turkki on kesällä punaharmaa ja 
-                talvella harmaanvalkea. Turkissa on ruskeita tai mustia täpliä tai 
-                juovia. Tupsupäiset korvat ovat takaa vaaleat. Silmät ovat keltaiset 
-                ja silmäterät pyöreät. Häntä on mustakärkinen. Jalat ovat suhteellisen 
-                pitkät.[3]Puhtaalle lihansyöjälle tyypillisesti ilveksellä on pitkät, 
-                terävät ja veitsimäisesti litistyneet kulmahampaat. Sillä on myös 
-                voimakkaat ja hyvin kehittyneet raateluhampaat, jotka soveltuvat hyvin 
-                leikkaamiseen. Poskihampaat sen sijaan ovat olemattomat. Ilveksen 
-                leuat ovat suhteellisen lyhyet ja voimakkaat. Kallo tarjoaa laajan 
-                kiinnittymispinnan suurille niskalihaksille, jotka vaimentavat ja 
-                välittävät saalistuksen aiheuttamia iskuja kallosta koko ruumiseen
-            </p>
-        </div>
-        <img src="young-lynx.jpg" alt="BADASS CAT">
-        <hr>
-        /*        border-style: solid;
-        border-color: #CC3366; */
-        </hr>
-    </body>
+    </div>
+    <div id="virallinenTieto"><h3>KATTEJA </h3>
+        <img  src="young-lynx.jpg" id="ilves" alt="Pentu ilves" height="100" widht="100">
+        <a href="young-lynx.jpg"><img src="young-lynx.jpg" alt="Young Lynx"></a>
+        <article>
+            Tämä koodaaminen ei ota sujuakseen, on jotain lukkoja. 
+        </article> 
+    </div>
+    <img src="young-lynx.jpg" alt="BADASS CAT">
+    <footer>* * * Ota yhteyttä * * *</footer>
+</body>
 </html>

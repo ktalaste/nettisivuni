@@ -1,0 +1,44 @@
+﻿<!DOCTYPE html>
+<html lang="fi">
+    <head>
+        <meta charset="UTF-8">
+        <title>Welcome to my first webpage</title>
+        <link rel="stylesheet" type="text/css" href="mystyle.css">
+    </head>
+    <body>
+        <div align="center"></div>
+        <p>
+            <a href="kotisivut.html">
+                <img src="buttons/kotisivut.jpg" width="50"
+                     height="50" alt="Links page" />
+            </a>
+        </p>
+        <p>
+            <img src="Mina.jpg" width="100" alt="Me myself and I"></img>
+        </p>
+        <a name="top"></a>
+        <a href="tokasivu.html">Page 2</a>
+        <a href="tokasivu.html">Page 2</a>
+        <a href="kolmassivu.html">Page 3</a>
+        <a href="neljässivu.html">Page 4</a>
+        <ul>
+            <li><b>Like this</b></li>
+            <li><b>and this</b></li>
+            <li><b>and so on</b></li>
+        </ul>
+        <dl><dd>I have made this all by myself</dd></dl>
+        <dl><dd>I have made this page all by myself</dd></dl>
+        <dl><dl><dd>I have made this all by myself</dd></dl></dl>
+        <h1>Trying desperately to learn how to programm. Finally me too in World Wide Web</h1>
+        <a href="http://www.bbc.com">Click</a>
+        <div align="center">What you see is what you get</div>
+        <hr />
+        <h2>Try to find some time to manage in this Verkkosivujen kehittäminen- kurssin.</h2>
+        <p> My email adress is 
+            <a href="mailto:kirsi.helena@windowslive.com">Send me an email message</a>
+        </p>
+        <p align="center">
+            Let´s go</p>
+        <footer>* * * Ota yhteyttä * * *</footer>
+    </body>
+</html>
