@@ -1,39 +1,93 @@
 <!DOCTYPE html>
 <html lang="fi">
     <head>
-        <meta charset="UTF-8">
-        <title>Welcome to my first webpage</title>
-        <link rel="stylesheet" type="text/css" href="app.css">
+        <title>Navigaatio</title>
+        <meta charset="UTF-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no"/>
+        <style>
+            html,body {
+                max-width: 100%;
+                width: 100%;
+                min-width: 100%;
+                max-height: 100%;
+                height: 100%;
+                min-height: 100%;
+                background-color: white;
+                margin: 0px;
+                font-family: "Georgia", "Times", "serif";
+            }
+
+            .container {
+                width: 800px;
+                max-height: 100%;
+                height: 100%;
+                min-height: 100%;
+                background-color: grey;
+                margin: 0px auto;
+                border: 1px solid lightgray;
+            }
+
+            nav.top {
+                width: 100%;
+                height: 1cm;
+                background-color: darkblue;
+                color: whitesmoke;
+                margin: 0px;
+            }
+
+            nav.top a {
+                margin: 0px;
+                float: left;
+            }
+
+            nav.left,.content {
+                float: left;
+                margin: 0;
+                padding: 1em;
+            }
+
+            .main {
+                width: 100%;
+                margin: 0px;
+                clear: both;
+            }
+
+            header, footer {
+                padding: 1em;
+                color: white;
+                background-color: black;
+                clear: left;
+                text-align: center;
+            }
+        </style>
     </head>
     <body>
-        <div align="center"></div>
-        <p>
-            <img src="buttons/kotisivut.jpg" width="50"
-                 height="50" alt="Links page" />
-        </p>
-        <p>
-            <img src="Mina.jpg" width="100" alt="Me myself and I"></img>
-        </p>
-        <a href="second.html">Matkailusivu</a>
-        <a href="kissat.html">Kissasivu</a>
-        <ul>
-            <li><b>Like this</b></li>
-            <li><b>and this</b></li>
-            <li><b>and so on</b></li>
-        </ul>
-        <dl><dd>I have made this all by myself</dd></dl>
-        <dl><dd>I have made this page all by myself</dd></dl>
-        <dl><dl><dd>I have made this all by myself</dd></dl></dl>
-        <h1>Trying desperately to learn how to programm. Finally me too in World Wide Web</h1>
-        <a href="http://www.bbc.com">Click</a>
-        <div align="center">What you see is what you get</div>
-        <hr />
-        <h2>Try to find some time to manage in this Verkkosivujen kehittäminen- kurssin.</h2>
-        <p> My email adress is 
-            <a href="mailto:a@b.c">Send me an email message</a>
-        </p>
-        <p align="center">
-            Let´s go</p>
-        <footer>* * * Ota yhteyttä * * *</footer>
+        <div class="container">
+            <header>
+                <h1>Navigaatio</h1>
+            </header>
+            <nav class="top">
+                <a href="#1"><p>Sivu 1</p></a>
+                <a href="#2"><p>Sivu 2</p></a>
+                <a href="#3"><p>Sivu 3</p></a>
+            </nav>
+            <div class="main">
+                <nav class="left">
+                    <ul>
+                        <li><a href="#">London</a></li>
+                        <li><a href="#">Paris</a></li>
+                        <li><a href="#">Tokyo</a></li>
+                    </ul>
+                </nav>
+                <div class="content">
+                    <h1>London</h1>
+                    <p>London is the capital city of England. It is the most populous city in the  United Kingdom, with a metropolitan area of over 13 million inhabitants.</p>
+                    <p>Standing on the River Thames, London has been a major settlement for two millennia, its history going back to its founding by the Romans, who named it Londinium.</p>
+                </div>
+            </div>
+            <footer>
+                <p>(c) 2017 Kirsi Talasterä</p>
+            </footer>
+        </div>
     </body>
 </html>
