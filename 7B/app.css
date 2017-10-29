@@ -33,8 +33,8 @@ nav.top {
     clear: both;
 }
 
-nav.top a {
-    padding: 1em;
+nav.top button {
+    margin: 20px;
     float: left;
 }
 
