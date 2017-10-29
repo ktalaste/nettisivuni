@@ -1,0 +1,48 @@
+body {
+    background-color: cadetblue;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h1 {
+    border: 0px none;
+    padding: 10px;
+    margin: 0px;
+}
+
+h2 {
+    border: 1px solid;
+    color: red;
+}
+
+p {
+    border: 1px solid;
+    border-radius: 20px;
+    padding: 10px;
+    background-color: cyan;
+}
+
+figure {
+    float: left;
+    width: 400px;
+    padding: 30px;
+    margin: 0px;
+    border: 0px none;
+}
+
+.header {
+    background-color: white;
+}
+
+.main-content {
+    width: 800px;
+    padding: 0px;
+    margin: 0px;
+    border: 0px none;
+}
+
+.left-content {
+    width: 250px;
+    float: left;
+}

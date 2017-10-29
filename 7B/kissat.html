@@ -1,0 +1,48 @@
+﻿<!DOCTYPE html>
+<html lang="fi">
+    <head>
+        <title>Kirsin sivu</title>
+        <meta charset="UTF-8" />
+        <link rel="stylesheet" type="text/css" href="app.css">
+    </head>
+    <body style="background-color:pink;">
+        <div class="header">
+            <a href="index.html">Hakemistosivulle</a>
+            <a href="second.html">Matkailusivulle</a>
+        </div>
+        <h1 style="text-align:center;">mÄ tYkKäÄn KiSsOiStA</h1>
+        <h1 style="color:white;"> Kirsi Talasterä </h1>
+        <p style="color:white;"><b> Opiskelen Laurea ammattikorkeakoulussa tietojenkasittelyn tradenomiksi </b> .</p>
+        <hr/>
+        <p>
+            <a href="http://www.bbc.com">BBC.COM</a>
+        </p>
+        <hr>
+        <img src="images/kissat_1.jpg">
+        <p id="Catpredator" >SWEET LITTLE KITTYCAT<br>
+        <p class="kissa">BADASS ATTITUDE<br>
+        <hr/>
+        <h2> HOBBIES</h2>
+        <ul>
+            <li> DANCING </li>
+            <li> KICKBOXING </li>
+        </ul>
+        <dl id="coffee">
+            <dt> Coffee </dt>
+            <dd> is made of beans </dd>
+        </dl>
+        <dl id="tea">
+            <!-- Tähän tuotetaan tietoa dynaamisesti Javascriptillä -->
+        </dl>
+        <button type="button" onclick="tea();">Paina nappia</button>
+        <script>
+            function tea() {
+                var coffee = document.getElementById("coffee");
+                coffee.remove();
+                var tea = document.getElementById("tea");
+                tea.innerHTML = "<dt>Tea</dt><dd style=\"color:red;\">... but no sympathy</dd>";
+                return false;
+            }
+        </script>
+    </body>
+</html>
