@@ -1,0 +1,272 @@
+2b
+
+Tehtävä
+	
+
+        Luo kansio koneellesi (esim. "nettisivuni").
+
+        Luo yksi HTML5 sivu ja tallenna se index.html nimellä äsken luomaasi kansioon.
+
+        Tämä sivu tulee olemaan sivustosi kotisivu. Opintojakson kuluessa tulet laajentamaan sivustoasi lisäämällä siihen sivuja. Valitse sivustosi aiheeksi jokin itseäsi kiinnostava asia. Aiheita voisivat olla esim. oma portfolio, itselleen tärkeä harrastus jne.
+
+        Mikäli alusta asti luot sivuillesi todellista sisältöä, on opintojakson viimeinen tehtävä jo lähes valmiina, kun tehtävän 13B aika koittaa (voit lukea jo nyt ko. tehtävän tehtäväksiannon).
+
+        Lisää sivuusi ainakin seuraavat ominaisuudet (tässä vaiheessa ei tarvitse vielä huolehtia sivun ulkoasusta):
+
+            title-määritys
+            käytetty kieli
+            merkistö (UTF-8)
+            2 erikokoista otsikkoa (header)
+            kappaleen/paragrafin (paragraph)
+            listan (järjestetty "ol" järjestämätön "ul")
+            kuvauslistan (dl)
+            erikoismerkkejä (esim. ©, é, ä, ö ...)
+
+Käytä koodissa aina suoria lainausmerkkejä:
+
+http://practicaltypography.com/straight-and-curly-quotes.html
+
+ 
+ 
+Tehtävä 2 	
+
+    Kun sivusi on valmis, tarkasta sen oikeellisuus http://validator.w3.org - työkalulla (Validate by File Upload - välilehti)
+
+    Jos työkalu löysi yhdenkin ongelman, korjaa se. Käytä työkalua niin pitkään kunnes saat vastauksesi:
+
+Lista validaattorin virheilmoituksista
+
+Aloittavalle koodaajalle saattaa olla vaikeaa tulkita validaattorin virheilmoituksia. Markup Validation Service ylläpitää listaa virheilmoitusten selityksistä: list of error messages and their interpretation. Lista on varmasti avuksi niiden tulkinnassa.
+
+2.   Liitä validointiraportti palautuksen mukaan.
+Voit tallentaa raporttisivun PDF:ksi
+
+    Windows: http://www.digitaltrends.com/computing/print-pdf-windows/ 
+    Mac: https://support.apple.com/kb/PH18622?locale=fi_FI)
+
+tai ottaa sivusta kuvakaappauksen (esim. Snipping-ohjelmalla)
+
+Zippaa sivustokansiosi ja nimeä zipattu tiedosto "2B.zip".
+(Opettajien koneella ei välttämättä saa muita auki)
+
+    Tiedostojen ja kansioiden pakkaaminen (Windows): https://support.microsoft.com/fi-fi/help/14200/windows-compress-uncompress-zip-files
+    Tiedostojen ja kansioiden pakkaaminen (Mac): https://support.apple.com/kb/PH22194?locale=fi_FI
+
+  	
+
+Palauta zipattu kansiosi sekä validointiraportti Tehtävä 2 -palautuslaatikkoon 
+
+Arviointi
+	
+
+1 piste hyväksytystä virheettömästä koodista
+
+Aikaresurssi
+	
+
+2 tunti
+
+3b
+
+Tehtävä 3b - Web-sivu
+ 
+
+Tavoite
+	
+
+Opiskelija oppii HTML-sivujen tekstin ja värien muokkauksen, CSS-
+tekniikkaa käyttämällä 
+
+Tehtävä 1
+	
+
+Lisää uusia ominaisuuksia aiemmin luomallesi web-sivulle (index.html):
+
+    Luo CSS-tiedosto ja tallenna se samaan kansioon web-sivusi kanssa.
+
+    Linkitä CSS-tiedosto sivullesi.
+
+    Muokkaa värejä ja tekstejä web-sivullasi käyttämällä luomaasi CSS-tiedostoa
+
+
+Tehtävä 2  	
+
+    Kun sivusi on valmis, tarkasta sen oikeellisuus http://validator.w3.org - työkalulla.
+
+    Tarkista myös CSS-tiedostosi: https://jigsaw.w3.org/css-validator/validator.html.en ja korjaa tarvittaessa.
+
+    Markup Validation Servicen ylläpitämä lista virheilmoitusten selityksistä: list of error messages and their interpretation. 
+    Liitä validointiraportti palautuksen mukaan. Tallenna raportit (esim. näyttökuvana, PDF-tiedostona...) 
+
+Zippaa sivustokansiosi ja nimeä zipattu tiedosto "3B.zip" 
+
+ 
+	Palauta zip-tiedostosi ja validointiraporttisi Tehtävät 3 -palautuslaatikkoon 
+
+Arviointi
+	
+
+1 piste hyväksytystä, virheettömästä koodista.
+
+Aikaresurssi
+	4 tuntia
+
+Tehtävä 4b - Web-sivu
+ 
+
+Tavoite
+	Oppilas oppii visuaalisista elementeistä ja grafiikasta
+
+Tehtävä 1
+	
+
+Lisää uusia ominaisuuksia(second.html)
+
+1. HTML
+
+    Luo uusi sivu (esim. second.html)
+    Luo sivulle jonkin verran sisältöä (ainakin jokin otsikko ja hieman tekstiä).
+    Lisää index.html-sivullesi linkki, joka ohjass tälle uudelle sivulle.
+    Lisää second.html-sivullesi linkki index.html-sivulle.
+    Sijoita linkki samaan kohtaan kummallakin sivulla (esim. vasen yläreuna)
+    Lisää sivuillesi kuva-elementti (img)
+    Lisää toinen kuva-elementti, jossa käytät hyödyksesi figure-elementtiä. (figure ja figcaption)
+    Lisää sivuillesi progress-elementti. (Esim. kuvaamaan kurssin etenemistä tai vaikkapa jonkin asian taitotasoasi).
+
+2. CSS
+
+    Linkitä second.html ulkoiseen tyylitiedostoon.
+    Lisää sivuillesi taustakuva tai taustaväri.
+    Lisää johonkin otsikko-elementtiin (h1, h2..) reunukset.
+    Lisää  p-elementtiin uusi taustaväri ja määritä sille pyöristetyt reunukset.
+    Kokeile margin/padding-komentoja eri elementteihin. Pyri selkeyttämään sivujen rakennetta.
+
+Tehtävä 2
+	
+
+1. Kun sivusi on valmis, tarkasta sen oikeellisuus http://validator.w3.org - työkalulla.
+
+2. Tarkista myös CSS-tiedostosi: https://jigsaw.w3.org/css-validator/validator.html.en ja korjaa tarvittaessa.
+
+Markup Validation Servicen ylläpitämä lista virheilmoitusten selityksistä: list of error messages and their interpretation. 
+
+3. Liitä validointiraportti palautuksen mukaan. Tallenna raportit (esim. näyttökuvana, PDF-tiedostona...)
+
+Zippaa sivustokansiosi ja nimeä zipattu tiedosto "4B.zip" 
+  	Palauta zip-tiedostosi sekä validointiraporttisi 
+
+Arviointi
+	
+
+1 piste hyväksytystä, virheettömästä koodista.
+
+Aikaresurssi
+	 3 tuntia
+
+Tehtävä 5b - Web-sivu
+ 
+Tavoite 	
+
+Oppilas oppii luomaan web-sivun rakenteen, navigaation (sivu-linkit) ja visuaalisen ulkoasun käytön omalla web-sivullaan.
+Tehtävä 1 	
+
+HTML
+
+    Opiskele HTML-sivurakenteen perusteet
+    sekä CSS Layout
+
+    Luo index.html-sivullesi rakenne, div-elementtien avulla (div id). Body-osan rakenteen tulee sisältää ainakin kolme eri div id-osiota joiden nimet on header, nav ja section/article .
+
+    Käytä nk. semanttisia tageja:
+
+    Voit katsoa HTML-sivurakenteen perusteet uudestaan ja saat vinkit rakenteen luomiseen)
+
+        Määritä head-osioon title-tageilla sivujesi nimi
+
+        nav-osioon kaksi -linkkiä joista toinen linkkautuu "index.html"-sivulle ja toinen linkki "second.html"-sivulle, joka tulee sijaitsemaan samassa kansiossa kuin index.html (ole tarkkana linkkien href määrityksen kanssa)
+
+        Molempien sivujen section-osioon voit luoda sisältöä haluamasi mukaan, tai käyttää aiemmin luomiasi tekstejä/listoja/linkkejä 
+
+
+    Varmista, että pystyt liikkumaan navigaation avulla sivujesi välillä.
+
+CSS
+
+    Muuta jokaisen osion (header, nav, section) taustaväri, jotta näet selkeästi mihin eri määritykset vaikuttavat.
+
+    Huomaa, että käytettäessä saman nimisiä div id-osiota eri dokumenteissa, vaikuttavat tekemäsi css-määritykset jokaiseen dokumenttiin, joissa ne ovat käytössä = yhtenäisen ulkoasun luominen helpottuu.
+
+    Keskitetään lopuksi koko nettisivun sisältö, jolloin sivuston ulkoasusta tulee miellyttävämmän näköinen. Verkkosivun rakenteeseen tutustutaan tarkemmin ensi viikolla, nyt riittää kun lisäät seuraavan koodin ja katsot miten sivusi muuttuu->
+
+    body {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    }  
+
+Tehtävä 2
+	
+
+1. Kun sivusi on valmis, tarkasta sen oikeellisuus http://validator.w3.org - työkalulla.
+
+2. Tarkista myös CSS-tiedostosi: https://jigsaw.w3.org/css-validator/validator.html.en ja korjaa tarvittaessa.
+
+Markup Validation Servicen ylläpitämä lista virheilmoitusten selityksistä: list of error messages and their interpretation. 
+
+3. Liitä validointiraportti palautuksen mukaan. Tallenna raportit (esim. näyttökuvana, PDF-tiedostona...) 
+
+Zippaa sivustokansiosi ja nimeä zipattu tiedosto "5B.zip"  
+ Arvointi 	
+
+2 piste hyväksytystä, virheettömästä koodista
+Aikaresurssi 	 4 tuntia
+
+
+Tehtävä 6b - Web-sivu
+ 
+Tavoite 	
+
+Oppilas oppii luomaan kahden sarakkeen websivun, hyödyntämään box-modelia sommittelussa, sekä css pseudo-luokkien käytön.
+Tehtävä 1 	
+
+Vinkkejä: http://www.w3schools.com/html/html_layout.asp
+
+http://www.w3schools.com/css/css_pseudo_classes.asp
+
+    Luo uusi html-dokumentti ja nimeä se third.html-nimellä.
+
+    Tee uudesta sivusta layoutiltaan samanlainen kuin aikasemmat sivut (esim. kopioimalla koodi aiemmin luomastasi second.html sivusta ja siirrä se third.html sivulle).
+
+    Muokkaa third.html sivua ja sen sisältöä.
+
+    Luo kaikille sivuille (index.html, second.html ja third.html) uusi pystysuuntainen navigaatio (vertical) ja sijoita se sivujesi vasempaan reunaan käyttämällä kellunta ominaisuutta (float-property).
+
+    Sijoita sivujesi section osa uuden sivunavigaatiosi viereen, jolloin saat sisällön näkymään kahdessa sarakkeessa. Voit itse määrittää näiden sarakkeiden leveyden käyttämällä width-ominaisuutta.
+
+    Lisää sivunavigaatioon kaksi linkkiä johonkin ulkopuoliselle sivustolle (esim. google.com). Määritä ulkopuoliset linkit avautumaan uudelle välilehdelle.
+
+    Lisää päänavigaatioon linkki uudelle third.html sivullesi. (Muista muokata kaikkia html-dokumentteja).
+
+    Määritä eri elementeille margin ja padding-ominaisuuksia ja yritä parantaa sivuston sommittelua niiden avulla. Esim. eri div-elementtien tekstit näyttävät paremmilta, jos ne eivät ole aivan kiinni elementin reunoissa.
+
+    Lisää sivujesi päänavigaation linkkeihin pseudo-luokka efekti, joka muuttaa linkin värin esim. punaiseksi, kun hiiren vie linkin päälle
+
+Nyt sivujen rakenteen tulisi siis näyttää suunnilleen tältä:
+
+Tehtävä 2
+	
+
+1. Kun sivusi on valmis, tarkasta sen oikeellisuus http://validator.w3.org - työkalulla.
+
+2. Tarkista myös CSS-tiedostosi: https://jigsaw.w3.org/css-validator/validator.html.en ja korjaa tarvittaessa.
+
+Markup Validation Servicen ylläpitämä lista virheilmoitusten selityksistä: list of error messages and their interpretation. 
+
+3. Liitä validointiraportti palautuksen mukaan. Tallenna raportit (esim. näyttökuvana, PDF-tiedostona...) 
+
+Zippaa sivustokansiosi ja nimeä zipattu tiedosto "6B.zip" 
+  	Palauta zip-tiedostosi ja validointiraporttisi 
+ Arvointi 	
+
+2 piste hyväksytystä, virheettömästä koodista.
+Aikaresurssi 	 4h
