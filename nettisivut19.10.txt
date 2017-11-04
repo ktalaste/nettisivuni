@@ -18,7 +18,6 @@
         </p>
         <a name="top"></a>
         <a href="tokasivu.html">Page 2</a>
-        <a href="tokasivu.html">Page 2</a>
         <a href="kolmassivu.html">Page 3</a>
         <a href="neljässivu.html">Page 4</a>
         <ul>
