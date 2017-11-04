@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="fi">
+    <head>
+        <title>Minun Bootstrap-sivuni</title>
+        <meta charset="UTF-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+        <link rel="stylesheet" href="bootstrap.min.css"/>
+        <link rel="stylesheet" href="app.css"/>
+    </head>
+    <body>
+        <div class="container">
+            <div class="row">
+                <h2>Sisäänkirjautuminen</h2>
+            </div>
+            <div class="row">
+                <div class="col-md-4 col-md-offset-4 my-form-container">
+                    <form id="lomake">
+                        <div class="row form-group">
+                            <div class="col-md-6">
+                                <label for="kayttajatunnus">Käyttäjätunnus:</label>
+                            </div>
+                            <div class="col-md-6">
+                                <input type="text" class="form-control"
+                                       id="kayttajatunnus"
+                                       placeholder="Käyttajatunnus"/> 
+                            </div>
+                        </div>
+                        <div class="row form-group">
+                            <div class="col-md-6">
+                                <label for="salasana">Salasana:</label>
+                            </div>
+                            <div class="col-md-6">
+                                <input type="password" class="form-control"
+                                       id="salasana"
+                                       placeholder="Salasana"/> 
+                            </div>
+                        </div>
+                        <div class="row">
+                            <button type="button" class="btn btn-primary">Kirjaudu sisään</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <script src="jquery.min.js"></script>
+        <script src="bootstrap.min.js"></script>
+    </body>
+</html>
