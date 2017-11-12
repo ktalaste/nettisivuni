@@ -18,6 +18,13 @@ body {
     align-content: center;
 }
 .page-header{
-    margin-bottom: auto;
+    text-align: center;
     padding: auto;
 }
+.text{
+    text-align: center;
+}
+.row{
+    text-align: center;
+}
+/**/
