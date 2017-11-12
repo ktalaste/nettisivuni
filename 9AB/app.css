@@ -13,11 +13,13 @@ body {
     border: 1px solid black;
     border-radius: 10px;
 }
-.header{
+
+.header {
     font-family: serif;
     align-content: center;
 }
-.page-header{
-    margin-bottom: auto;
-    padding: auto;
+
+header,footer {
+    background-color: black;
+    color: white;
 }
