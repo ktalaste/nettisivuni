@@ -1,27 +1,39 @@
 <!DOCTYPE html>
 <html lang="fi">
-    <head>
-        <title>Bootstrap-komponentteja</title>
-        <meta charset="UTF-8"/>
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
-        <link rel="stylesheet" href="bootstrap/dist/css/bootstrap.min.css"/>
-        <link rel="stylesheet" href="app.css"/>
-    </head>
-    <body>
-        <div class="container">
-            <div class="row">
-                <div class="col-sm-3 col-sm-offset-3">
-                    <button type="button" class="btn btn-default">
-                        <span class="glyphicon glyphicon-search"></span>
-                        Hae
-                    </button>
-                </div>
-                <div class="col-sm-3">
-                    <button type="button" class="btn btn-success">Lähetä</button>
-                </div>
-            </div>
-        </div>
-        <script src="jquery.min.js"></script>
-        <script src="bootstrap/dist/js/bootstrap.min.js"></script>
-    </body>
+<head>
+  <title>Bootstrap-komponentteja</title>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+  <link rel="stylesheet" href="bootstrap/dist/css/bootstrap.min.css"/>
+  <link rel="stylesheet" href="app.css"/>
+</head>
+<body>
+  <div class="container">
+    <nav class="navbar navbar-default">
+      <p class="navbar-text">Kirsin navigaatiopaneeli.</p>
+      <button type="button" class="btn btn-default navbar-btn">Sign in</button>
+    </nav>
+    <div class="jumbotron">
+      <h1>Kirsin sivu</h1>
+      <p>Palstatekstiä</p>
+    </div>
+    <div class="row">
+      <div class="col-sm-3 col-sm-offset-3">
+        <button type="button" class="btn btn-default">
+          <span class="glyphicon glyphicon-search"></span>
+          Hae
+        </button>
+      </div>
+      <div class="col-sm-3">
+        <button type="button" class="btn btn-success">Lähetä</button>
+      </div>
+    </div>
+    <div class="row">
+      <img class="my-img img-circle" src="dance1.jpg"/>
+      <img class="my-img img-responsive" src="dance2.jpg"/>
+    </div>
+  </div>
+  <script src="jquery.min.js"></script>
+  <script src="bootstrap/dist/js/bootstrap.min.js"></script>
+</body>
 </html>
