@@ -36,7 +36,7 @@ $(function() {
     henkilo.sukunimi = $('#sukunimi').val();
     henkilo.sahkoposti = $('#sahkoposti').val();
     henkilo.muistiinpanoja = $('#muistiinpanoja').val();
-    henkilo.lisatietoja = $('#lisatietoja').val();
+    henkilo.lisatietoja = $('input[name="lisatietoja"]:checked').val() === 'lisatietoja' ? 'Haluan lisätietoja.' : 'En halua lisätietoja.';
     henkilot.push(henkilo);
     paivitaTaulukko();
     tyhjenna();
