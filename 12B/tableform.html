@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="fi">
+<head>
+  <title>Lomake ja taulukko</title>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+  <link rel="stylesheet" href="bootstrap/dist/css/bootstrap.min.css"/>
+  <link rel="stylesheet" href="app.css"/>
+</head>
+<body>
+  <div class="container">
+    <div class="jumbotron">
+      <h1>Lomake ja taulukko</h1>
+      <p>Tehtävän 12B mukaiset lomake ja taulukko</p>
+    </div>
+    <div class="row">
+      <div class="col-sm-2">
+      </div>
+      <div class="col-sm-8">
+        <form id="henkilotiedot">
+          <div class="row">
+            <div class="col-sm-6">
+              <div class="form-group">
+                <label for="etunimi">Etunimi</label>
+                <input type="text" class="form-control" id="etunimi" placeholder="Etunimi" required="required"/>
+              </div>
+            </div>
+            <div class="col-sm-6">
+              <div class="form-group">
+                <label for="sukunimi">Sukunimi</label>
+                <input type="text" class="form-control" id="sukunimi" placeholder="Sukunimi" required="required"/>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="form-group">
+              <label for="sahkoposti">Sähköpostiosoite</label>
+              <input type="email" class="form-control" id="sahkoposti" placeholder="Sähköpostiosoite" required="required"/>
+            </div>
+          </div>
+          <div class="row">
+            <div class="row">
+              <div class="form-group">
+                <label for="muistiinpanoja">Muistiinpanoja</label>
+                <textarea class="form-control" id="muistiinpanoja" placeholder="Muistiinpanoja" cols="80" rows="4"></textarea>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-sm-6">
+              <label for="lisatietoja">Haluan lisätietoja</label>
+              <input type="radio" id="lisatietoja" name="lisatietoja" value="lisatietoja" checked="checked">
+            </div>
+            <div class="col-sm-6">
+              <label for="lisatietoja">En halua lisätietoja</label>
+              <input type="radio" id="eilisatietoja" name="lisatietoja" value="eilisatietoja" />
+            </div>
+          </div>
+          <div class="row">
+            <button type="submit" class="btn btn-primary text-center col-sm-offset-5" style="margin-top: 1em;">Lisää uusi käyttäjä</button>
+          </div>
+        </form>
+      </div>
+      <div class="col-sm-2">
+      </div>
+    </div>
+  </div>
+  <script src="jquery.min.js"></script>
+  <script src="bootstrap/dist/js/bootstrap.min.js"></script>
+</body>
+</html>
