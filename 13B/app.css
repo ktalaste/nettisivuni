@@ -1,0 +1,30 @@
+html, body {
+    background-color: purple;
+    font-family: "Georgia", "Times", "serif";
+}
+
+.container {
+    background-color: white;
+}
+
+.jumbotron {
+    background-color: purple;
+    color: white;
+}
+
+nav.top {
+    background-color: purple;
+}
+
+nav.top button {
+    margin: 20px;
+    float: left;
+}
+
+footer {
+  padding-top: 1cm;
+  padding-bottom: 1cm;
+  border: 1px solid black;
+  border-radius: 2mm;
+  text-align: center;
+}
